@@ -1,0 +1,19 @@
+/*style.css */
+
+body{
+  font-family: "Helvetica", "Arial," sans-sans-serif;\
+  line-height: 1.5;
+}
+
+section{
+  background-color: #ddd;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "header   header"
+  "nav      main"
+  "nav      footer"
+}
