@@ -1,8 +1,45 @@
-/*style.css */
 
-body{
-  font-family: "Helvetica", "Arial," sans-sans-serif;\
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:wght@500&display=swap');
+
+body {
+  font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
+  font-size: 16px;
+  color: #222;
+}
+
+
+a,
+a:link{
+  color: #4976b9;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #4b195d;
+}
+
+a:hover{
+  color: rgb(195,16,36);
+  text-decoration: underline;
+}
+
+a:active{
+  color: rgb(253, 185,86);
+}
+
+h1,
+h2{
+  text-align: center;
+  font-family: "Fira Sans Condensed", "Rockwell", "Georgia", serif;
+  font weight: 300;
+  background-color: rgb(180,201,217)
+}
+
+h1{
+  font-stretch: expanded;
+  background-color: rgb(180,201,217);
+  border: 5px dashed rgb(21,20,26)
 }
 
 section{
@@ -11,9 +48,78 @@ section{
 
 main{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 6fr;
   grid-template-areas:
   "header   header"
-  "nav      main"
-  "nav      footer"
+  "flag      main"
+  "flag      footer"
+}
+
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 900px;
+  grid-row-gap: 20px;
+  grid-column-gap:20px
+}
+
+
+#flag{
+  background-color: #ddd;
+  width: 600px;
+  height: 300px;
+}
+
+#introduction{
+  background-color: #ddd;
+  padding:20px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  border: 5px solid rgb(21,20,26)
+}
+
+#tree{
+  width: 400px;
+  height: 400px;
+}
+
+#geography{
+  background-color: rgb(177,199,192);
+  text-align: left;
+  padding: 30px;
+  border: 5px solid rgb(21,20,26)
+}
+
+
+.values{
+  font-size: 20px;
+}
+
+.al{
+  background-color: rgb(206,223,191)
+}
+.forest{
+  background-color: rgb(233,235,208)
+}
+.other{
+  background-color: rgb(190,210,204)
+}
+.rs{
+  padding: 10px;
+  margin: 2px;
+  border: 5px solid rgb(21,20,26)
+}
+.location{
+  padding: 10px;
+  margin: 2px;
+  text-decoration-line: underline;
+  border: 5px solid rgb(21,20,26)
+}
+.landuse{
+  padding:10px;
+  margin: 2px;
+  border: 5px solid rgb(21,20,26)
 }
