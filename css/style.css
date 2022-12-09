@@ -33,7 +33,7 @@ h2{
   text-align: center;
   font-family: "Fira Sans Condensed", "Rockwell", "Georgia", serif;
   font weight: 300;
-  background-color: rgb(180,201,217)
+  background-color: rgb(235,236,237)
 }
 
 h1{
@@ -69,7 +69,7 @@ main{
 #flag{
   background-color: #ddd;
   width: 600px;
-  height: 300px;
+  height: 250px;
 }
 
 #introduction{
@@ -93,7 +93,9 @@ main{
   border: 5px solid rgb(21,20,26)
 }
 
-
+figure{
+  margin: 0;
+}
 .values{
   font-size: 20px;
 }
@@ -110,16 +112,12 @@ main{
 .rs{
   padding: 10px;
   margin: 2px;
-  border: 5px solid rgb(21,20,26)
 }
 .location{
   padding: 10px;
   margin: 2px;
-  text-decoration-line: underline;
-  border: 5px solid rgb(21,20,26)
 }
 .landuse{
   padding:10px;
   margin: 2px;
-  border: 5px solid rgb(21,20,26)
 }

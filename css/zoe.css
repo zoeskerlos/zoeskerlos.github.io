@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:wght@500&display=swap');
+
+body {
+  font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #222;
+}
+
+a,
+a:link{
+  color: #4976b9;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #4b195d;
+}
+
+a:hover{
+  color: rgb(195,16,36);
+  text-decoration: underline;
+}
+
+a:active{
+  color: rgb(253, 185,86);
+}
+
+h1,
+h2{
+  text-align: center;
+  font-family: "Fira Sans Condensed", "Rockwell", "Georgia", serif;
+  font weight: 300;
+  background-color: rgb(235,236,237)
+}
+
+h1{
+  font-stretch: expanded;
+  background-color: rgb(180,201,217);
+  border: 5px solid rgb(21,20,26);
+}
+
+h2{
+  font-stretch: expanded;
+  text-decoration: underline;
+  padding: 5px;
+  border: 5px solid rgb(21,20,26);
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "header   header"
+  "flag      main"
+  "flag      footer"
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ background-color:rgb(177,199,192);;
+}
+
+li a {
+ display: block;
+ color: rgb(206,223,191);
+ padding: 8px 16px;
+ text-align: center;
+ border-bottom: 1px solid #555;
+}
+
+li a:hover {
+ background-color: rgb(233,235,208);
+ color: white;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px;
+  grid-row-gap: 20px;
+  grid-column-gap:10px
+}
+
+
+#introduction{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding:20px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  background-color: rgb(235,236,233)
+}
+
+figure{
+  margin-left: auto;
+}
+
+
+
+#z {
+  display: grid;
+  width: 350px;
+  height: 300px;
+  padding: 30px;
+  text-align: left;
+  border: 5px solid rgb(21,20,26);
+  margin: 5px;
+  margin-right: 60px;
+  margin-top: 20px;
+  background-color: rgb(235,236,233)
+}
+
+#img{
+  display: grid;
+  width: 350px;
+  height: 300px;
+  padding: 30px;
+  text-align: left;
+  border: 5px solid rgb(21,20,26);
+  margin: 5px;
+  margin-right: 60px;
+  margin-top: 20px;
+  background-color: rgb(235,236,233);
+
+}
+
+#experience {
+  font-stretch: expanded;
+  text-align: left;
+  padding: 5px;
+  border: 5px solid rgb(21,20,26)
+}
+
+#education{
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+  border: 5px solid rgb(21,20,26)
+}
+
+.ss{
+  padding: 10px;
+  margin: 2px;
+}
+
+.rs{
+  padding: 10px;
+  margin: 2px;
+}
+
+.restaurant{
+  padding: 10px;
+  margin: 2px;
+}
+
+
+
+#desk{
+padding: .5px;
+}
