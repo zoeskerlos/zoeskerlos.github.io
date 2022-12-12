@@ -160,5 +160,12 @@ figure{
 
 
 #desk{
-padding: .5px;
+padding: 5px;
+}
+
+#pulse{
+padding-left: 40px;
+padding-right: 5px;
+padding-bottom: 20px;
+border: 5px
 }
